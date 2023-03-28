@@ -1,13 +1,92 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
+:root {
+  --color-bg: black;
+  --color-bg-variant: gray;
+  --color-primary: white;
+  --color-primary-variant: rgb(243, 207, 207);
+  --color-white: #fff;
+  --color-light: rgb(180, 180, 180);
+
+  --container-width-lg: 85%;
+  --container-width-md: 86%;
+  --container-width-ms: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.btn {
+    background: none;
+    border: 1px solid white;
+    /* left: 150px;
+    top: 80px; */
+    color: #fff;
+    transition-duration: 0.4s;
+    padding: 8px 16px;
+}
+
+.btn:hover {
+  background-color: rgb(203, 2, 2);
+  color: white;
+}
+
+
+
+
+body {
+  font-family: 'Courier Prime', monospace;  
+  background: var(--color-bg);
+  color:var(--color-white);
+  line-height: 1.7;
+}
+
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+    color:rgb(203, 194, 188);
+  } */
+
