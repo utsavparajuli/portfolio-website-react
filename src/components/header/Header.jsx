@@ -8,11 +8,10 @@ const Header = () => {
   return (
     
 
-    <div>
+    <div className='landing'>
       <Nav />
       <div className="container header__container">
-
-
+      <img src="https://i.gifer.com/5RT9.gif" alt='landing-gif' width='200' height={200}/>
         <h1>Utsav Parajuli</h1>
         <h5 className="text-light">Software Developer</h5>
         <CTA />

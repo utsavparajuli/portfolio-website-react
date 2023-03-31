@@ -17,12 +17,12 @@
 }
 
 .nav-container {
-    width: var(--container-width-lg);
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
 
 }
 
@@ -42,9 +42,9 @@ nav {
     position: relative;
     z-index: 999;
     height: 62px;
-    width: var(--container-width-lg);
+    width: 100%;
     background-color: transparent;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
   }
 
 /* .navbar {
@@ -56,9 +56,10 @@ nav {
   } */
 
 nav.fix {
-    width: var(--container-width-lg);
+    width: 100%;
     position: fixed;
-    background-color: white;
+    background-color: gray;
+    /* background-color: rgb(243, 243, 230); */
     height: 62px;
     color: black;
 

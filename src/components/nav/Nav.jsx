@@ -9,7 +9,7 @@ const Nav = () => {
 
   useEffect(()=> {
     const handleScroll = () => {
-      setFix(window.scrollY > 10)
+      setFix(window.scrollY > 0.5)
     }
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)

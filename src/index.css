@@ -47,6 +47,21 @@ html {
   color: white;
 }
 
+.btnB {
+  background: none;
+  border: 1px solid white;
+  /* left: 150px;
+  top: 80px; */
+  color: #fff;
+  transition-duration: 0.4s;
+  padding: 8px 16px;
+}
+
+.btnB:hover {
+background-color: rgb(7, 152, 2);
+color: white;
+}
+
 
 
 
@@ -72,11 +87,14 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+
 }
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section > h5 {
