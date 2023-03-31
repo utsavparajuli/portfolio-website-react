@@ -7,6 +7,7 @@ import HOME from '../../assets/homeLogo.png'
 const Nav = () => {
   const [fix, setFix] = useState(false);
 
+  const [activeNav, setActiveNav] = useState('#')
   useEffect(()=> {
     const handleScroll = () => {
       setFix(window.scrollY > 0.5)
@@ -31,12 +32,20 @@ const Nav = () => {
           </ul>
 
           <ul className='right-nav'>
-            <li><a href="/#">Home</a></li>
-            <li><a href="/#">About</a></li>
-            <li><a href="/#">Projects</a></li>
-            <li><a href="/#">Experience</a></li>
-            <li><a href="/#">Skills</a></li>
-            <li><a href="/#">Contact</a></li>
+            <li>
+                <a href="/#" onClick={() => setActiveNav('#')} className={activeNav === "#" ? 'active' : 'menuBtn'}> 
+                  <span> Home </span>
+                </a>
+            </li>
+            <li>
+              <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === "#about" ? 'active' : 'menuBtn'}>
+                <span>About</span>
+              </a>
+            </li>
+            <li><a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === "#projects" ? 'active' : 'menuBtn'}><span>Projects</span></a></li>
+            <li><a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === "#experience" ? 'active' : 'menuBtn'}><span>Experience</span></a></li>
+            <li><a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === "#skills" ? 'active' : 'menuBtn'}><span>Skills</span></a></li>
+            <li><a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? 'active' : 'menuBtn'}><span>Contact</span></a></li>
 
 
 

@@ -76,6 +76,8 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  height: 100vh;
+
 }
 
 h1,
@@ -93,8 +95,9 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  padding-top: 8rem;
   height: 100vh;
+  background-color: rgb(33, 33, 33);
 }
 
 section > h2, section > h5 {
@@ -112,3 +115,7 @@ section > h2, section > h5 {
     color:rgb(203, 194, 188);
   } */
 
+
+  a:hover {
+    font-weight: 300;
+  }
