@@ -33,7 +33,7 @@ const Nav = () => {
 
           <ul className='right-nav'>
             <li>
-                <a href="/#" onClick={() => setActiveNav('#')} className={activeNav === "#" ? 'active' : 'menuBtn'}> 
+                <a href="#" onClick={() => setActiveNav('#')} className={activeNav === "#" ? 'active' : 'menuBtn'}> 
                   <span> Home </span>
                 </a>
             </li>

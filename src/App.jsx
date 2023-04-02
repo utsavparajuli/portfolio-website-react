@@ -12,9 +12,9 @@ const App = () => {
     <>
       <Header></Header>
       <About></About>
-      <Porfolio></Porfolio>
       <Experience></Experience>
       <Skills></Skills>
+      <Porfolio></Porfolio>
       <Contact></Contact>
     </>
   )
