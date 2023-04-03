@@ -91,12 +91,11 @@ h5 {
 h1 {
   font-size: 3.5rem;
   margin-top: 2rem;
-
 }
 
 section {
   padding-top: 8rem;
-  height: 100vh;
+  height:100vh;
   background-color: rgb(33, 33, 33);
 }
 
@@ -119,4 +118,6 @@ section > h2, section > h5 {
   a:hover {
     font-weight: 300;
   }
+
+
 
