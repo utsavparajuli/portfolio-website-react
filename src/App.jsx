@@ -9,11 +9,14 @@ import Porfolio from './components/portfolio/Porfolio'
 const App = () => {
   return (
     <>
-      <Header></Header>
-      <About></About>
-      <Experience></Experience>
-      <Porfolio></Porfolio>
-      <Contact></Contact>
+      <div className='body-blur'>
+        <Header></Header>
+        <About></About>
+        <Experience></Experience>
+        <Porfolio></Porfolio>
+        <Contact></Contact>
+      </div>
+      
     </>
   )
 }

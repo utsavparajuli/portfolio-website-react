@@ -38,10 +38,12 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, 
-            consectetur adipisicing elit. Est provident cupiditate mollitia ullam 
-            natus officia ad libero vitae nihil nam dolorum vero voluptates, 
-            impedit deleniti hic consequuntur eius unde nisi?
+            Hi there! I am a passionate student who is working towards a Bachelor's Degree in Computer Science at University of California Irvine. 
+            I have industry experience as a Software Development Intern in Java, C++, C#, Python, and ASP.NET.
+
+            <br />
+            <br />
+            After graduation, I would like to be involved within my interests of Backend Development, Full-Stack Development, Machine Learning, and AI. 
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
