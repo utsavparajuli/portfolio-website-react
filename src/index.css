@@ -97,7 +97,7 @@ h1 {
 
 section {
   padding-top: 8rem;
-  height:100vh;
+  /* height:100vh; */
   background-color: rgb(33, 33, 33);
 }
 
@@ -121,5 +121,27 @@ section > h2, section > h5 {
     font-weight: 300;
   }
 
+  /* ============= MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+    .container {
+      width: var(--container-width-md);
+    }
+    
+    section {
+      margin-top: 6rem;
+      height: 200vh;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  
+  section > h2{
+    margin-bottom: 2rem;
+  }
+}
 
 

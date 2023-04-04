@@ -98,3 +98,10 @@ nav.fix {
 /* nav a:hover {
     ;
 } */
+
+@media screen and (max-width: 600px) {
+    nav.fix {
+        height: auto;
+
+    }
+}

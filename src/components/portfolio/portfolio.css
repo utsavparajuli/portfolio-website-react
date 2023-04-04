@@ -24,7 +24,6 @@
     display: block;
     width: 100%;
     object-fit: cover;
-
 }
 
 
@@ -85,33 +84,22 @@ button {
 }
 
 
-/* .container {
-    position: relative;
-    width: 50%;
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
   }
-  
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
+}
 
-  
-  .container:hover .image {
-    opacity: 0.3;
+@media screen and (max-width: 600px) {
+
+  .portfolio {
+    height: 350vh;
   }
-  
-  .container:hover .middle {
-    opacity: 1;
+
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
-  
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  } */
+}

@@ -23,7 +23,13 @@
         overflow: hidden;
         transform: rotate(10deg);
         transition: var(0.3s);
+        
 
+}
+
+.about__me-image img {
+        width: 100%;
+        height: auto;
 }
 
 .about__me-image:hover {
@@ -70,7 +76,6 @@
         margin: 2rem 0 2.6rem;
 }
 
-
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
         .about__container {
@@ -86,8 +91,32 @@
         .about__content p {
                 margin: 1rem 0 1.5rem;
         }
+        
 }
 
 @media screen and (max-width: 600px) {
-        
+        .about__me {
+                width: 65%;
+                margin: 0 auto 3rem;
+
+        }
+
+        .about__cards {
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+                padding: 4rem 2rem;
+        }
+
+        .about__content {
+                text-align: center;
+        }
+
+        .about__content p {
+                margin: 1.5rem 0;
+        }
+
+        .about__me-image img {
+                width: 100%;
+                height: auto;
+        }
 }
