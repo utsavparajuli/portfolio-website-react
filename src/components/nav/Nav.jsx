@@ -25,7 +25,7 @@ const Nav = () => {
         <div className='nav-container'>
           <ul className='left-nav'>
             <li>
-              <a href="/#">
+              <a href="#">
                 <img src={HOME} alt="home" width={40} height={40}/>
               </a>
             </li>
