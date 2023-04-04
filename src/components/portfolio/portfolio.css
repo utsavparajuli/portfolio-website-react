@@ -86,6 +86,12 @@ button {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
+
+  .portfolio {
+    height: 230vh;
+  }
+
+
   .portfolio__container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
