@@ -40,7 +40,7 @@ const Contact = () => {
           <article className='contact__option'>
             <BsWhatsapp className='contact-icon'/>
             <h4>Phone</h4>
-            <h5>(949) 607-9098</h5>
+            <h5>(949) ***-****</h5>
             <a href='tel:+19496079098'><div className='text2'>Call Me</div></a>
           </article>
 

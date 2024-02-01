@@ -7,7 +7,8 @@ import IMG2 from '../../assets/search.png'
 import IMG3 from '../../assets/webcrawler.png'
 import IMG4 from '../../assets/dev.png'
 import IMG5 from '../../assets/data.png'
-import IMG6 from '../../assets/graphics.png'
+// import IMG6 from '../../assets/graphics.png'
+import IMG6 from '../../assets/moviedb.jpeg'
 import { useState } from 'react'
 
 
@@ -27,6 +28,14 @@ const data = [
 
   {
     id: 2,
+    image: IMG6,
+    title: 'Online Movie DB Application',
+    github: 'https://github.com/utsavparajuli/online-movie-db-app',
+    description: 'Online Movie Database Application similar to IMDB allowing users to access their account, search for information (movies, actors, genres), and purchase movies.'
+  },
+
+  {
+    id: 3,
     image: IMG2,
     title: 'Search Engine',
     github: 'https://github.com/utsavparajuli/search-engine',
@@ -35,7 +44,7 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: 'Web Crawler',
     github: 'https://github.com/utsavparajuli/spacetime-crawler4py',
@@ -43,7 +52,7 @@ const data = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: 'Crux Compiler',
     github: 'https://github.com/utsavparajuli/crux-compiler',
@@ -52,7 +61,7 @@ const data = [
   },
 
   {
-    id: 5,
+    id: 6,
     image: IMG5,
     title: 'GHG Accounting Tool',
     github: 'N/A',
@@ -60,14 +69,15 @@ const data = [
                   'to gather raw data and design workflows in Alteryx Designer Platform. Final goal is to provide visualization of these built workflows.'
   },
 
-  {
-    id: 6,
-    image: IMG6,
-    title: '2D Graphics Modeler',
-    github: 'https://github.com/utsavparajuli/CS1C-Group-Project',
-    description: '2D Graphics Modeler completed by SCRUM development process designed in QT Creator. Ability to create, edit, and delete shapes. ' +
-    'Users can log into their account and leave a review based on their liking of the application.'
-  }
+
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: '2D Graphics Modeler',
+  //   github: 'https://github.com/utsavparajuli/CS1C-Group-Project',
+  //   description: '2D Graphics Modeler completed by SCRUM development process designed in QT Creator. Ability to create, edit, and delete shapes. ' +
+  //   'Users can log into their account and leave a review based on their liking of the application.'
+  // }
 ]
 const Porfolio = () => {
   const [btnPopup, setBtnPopup] = useState(false);

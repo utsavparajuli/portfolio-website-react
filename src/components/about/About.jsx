@@ -30,7 +30,7 @@ const About = () => {
             <article className='about__card'>
               <BsBookHalf className='about__icon' />
               <h5>Projects</h5>
-              <small>5+ Completed </small>
+              <small>7+ Completed </small>
             </article>
 
 
@@ -38,12 +38,15 @@ const About = () => {
           </div>
 
           <p>
-            Hi there! I am a passionate student who is working towards a Bachelor's Degree in Computer Science at University of California Irvine. 
-            I have industry experience as a Software Development Intern in Java, C++, C#, Python, and ASP.NET.
+            Hi there! I am an aspiring software enginner who recently graduated from the University of California, Irvine with a B.S in Computer Science. 
+            I have industry experiences as a Software Development Intern in Java, C++, C#, Python, and ASP.NET.
 
             <br />
             <br />
-            After graduation, I would like to be involved within my interests of Backend Development, Full-Stack Development, Machine Learning, and AI. 
+            I am currently working towards acquiring an entry-level role as a Software Engineer, Backend Developer, or Full-Stack Developer.
+            In the meantime, I am also learning new skills to expand my horizon and improve my knowledge.
+            In my next role, I strive to work in a dynamic environment that not only allows me to utilize 
+            my existing skills but also facilitates the development of new ones. I aim to contribute by formulating innovative solutions that bring about a positive impact.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

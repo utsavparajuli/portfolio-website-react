@@ -45,7 +45,7 @@ const Experience = () => {
               <GoVerified className='experience__details-icon' />
               <div>
                 <h4>C#</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
 
@@ -73,6 +73,13 @@ const Experience = () => {
               </div>
             </article>
 
+            <article className='experience__details'>
+              <GoVerified className='experience__details-icon' />
+              <div>
+                <h4>TypeScript</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
 
           </div>
         </div>
@@ -121,8 +128,8 @@ const Experience = () => {
             <article className='experience__details'>
               <GoVerified className='experience__details-icon' />
               <div>
-                <h4>React</h4>
-                <small className='text-light'>Beginner</small>
+                <h4>React.js</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
               
             </article>
@@ -139,7 +146,7 @@ const Experience = () => {
             <article className='experience__details'>
               <GoVerified className='experience__details-icon' />
               <div>
-                <h4>React</h4>
+                <h4>React Native</h4>
                 <small className='text-light'>Beginner</small>
               </div>
               
@@ -148,7 +155,7 @@ const Experience = () => {
             <article className='experience__details'>
               <GoVerified className='experience__details-icon' />
               <div>
-                <h4>scikit-learn</h4>
+                <h4>Apache Kafka</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
               
@@ -168,9 +175,32 @@ const Experience = () => {
               <GoVerified className='experience__details-icon' />
               <div>
                 <h4>Tableau</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Intermediate</small>
               </div>
-              
+            </article>
+
+            <article className='experience__details'>
+              <GoVerified className='experience__details-icon' />
+              <div>
+                <h4>AWS(EC2, S3, Lambda, DynamoDB)</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <GoVerified className='experience__details-icon' />
+              <div>
+                <h4>PostgreSQL</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <GoVerified className='experience__details-icon' />
+              <div>
+                <h4>Angular</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
 
           </div>
